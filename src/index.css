@@ -1,0 +1,85 @@
+body {
+   font-family: "Cascadia Code";
+   background-color:lightblue;
+}
+
+#root {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    text-align: center;
+    font-size: 50px;
+}
+
+#drum-machine {
+    border: 20px solid red;
+    padding: 30px;
+    background-color: rgb(42, 42, 211);
+    border-radius: 10px;
+    border-top-style: none;
+    border-bottom-style: none;    
+    text-align: center;
+    width: 800px;
+    position: relative;
+}
+
+#display {
+    width: 450px;
+    height: 150px;
+    background-color: rgb(21, 208, 21);
+    border-radius: 10px;
+    border: 30px solid rgb(19, 19, 169);
+    border-right-width: 40px;
+    border-left-width: 40px;
+    margin-bottom: 30px;
+    font-size: 24px;
+    font-family: "Press Start 2P";
+    color: rgb(13, 124, 13);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pads {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 510px;
+    max-height: 510px;
+    background-color: rgb(19, 19, 169);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.logo {
+    font-size: 50px;
+    font-weight: bold;
+    font-style: italic;
+    color: yellow;
+    position: absolute;
+    top: 0px;
+    right: 60px;
+
+  
+    
+}
+
+.drum-pad {
+    width: 150px;
+    height: 120px;
+    border-radius: 10px;
+    box-shadow: black 3px 3px 5px;
+    background: #8e8b8b;
+    margin: 10px;
+    padding: 0;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-weight: bold;
+}
